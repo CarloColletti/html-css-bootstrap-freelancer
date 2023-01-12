@@ -5,15 +5,59 @@
     /* debug */
 
     --deb-color-pink: pink;
-    --bg-color-blue: blue;
+    --deb-color-blue: blue;
+}
+
+
+*{
+    color: white;
 }
 /* background color section  */
-.bg-black {
+.bg-black-cc {
     background-color: var(--bg-color-black);
 }
 
-.bg-green {
+.bg-green-cc {
     background-color: var(--bg-color-green);
 }
 
+/* background DEBUG  */
+.bg-blue-cc {
+    background-color: var(--deb-color-blue);
+}
+
+.bg-pink-cc {
+    background-color: var(--deb-color-pink);
+}
+
 /* header  */
+
+#menu div {
+    display: inline-block;
+    margin: 1rem;
+}
+
+
+/* query */
+@media screen and (min-width: 200px) {
+    #hamburger_menu {
+        text-align: right;
+    }
+
+    #menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    #hamburger_menu {
+        display: none;
+        width: 0;
+    }
+
+    #menu {
+        display: block;
+    }
+
+}

@@ -1,0 +1,19 @@
+:root {
+    --bg-color-black: #2c3e50;
+    --bg-color-green: #1abc9c;
+
+    /* debug */
+
+    --deb-color-pink: pink;
+    --bg-color-blue: blue;
+}
+/* background color section  */
+.bg-black {
+    background-color: var(--bg-color-black);
+}
+
+.bg-green {
+    background-color: var(--bg-color-green);
+}
+
+/* header  */

@@ -139,10 +139,16 @@
                 <div class="row">
                     <div class="col-12 d-flex flex-column align-items-center text-center">
                         <h1>
-                            SECTION TITLE
+                            CONTACTS
                         </h1>
-                        <div class="box box-icon">
-                            icon
+                        <div class="line-star fs-1 text-uppercase">
+                            <div class="line-black rounded-pill">
+                            </div>
+                            <div class="black">
+                                &starf;
+                            </div>
+                            <div class="line-black rounded-pill">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -151,22 +157,23 @@
                 <form action="https:tizianonicolai.com/lezioni/form-printer" method="GET"
                     class="row justify-content-center">
                     <div class="col-10">
-                        <input type="text">
+                        <div for="name">Nome</div>
+                        <input type="text" name="name">
                     </div>
                     <div class="col-10">
-                        <input type="text">
+                        <div for="email">Cognome</div>
+                        <input type="email" name="email">
                     </div>
                     <div class="col-10">
-                        <input type="text">
+                        <div for="phone">Numero telefono</div>
+                        <input type="number" name="phone">
                     </div>
                     <div class="col-10">
-                        <input type="text">
+                        <div for="message">Messaggio</div>
+                        <textarea name="message" id="" cols="30" rows="10"></textarea>
                     </div>
                     <div class="col-10">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <div class="col-10">
-                        <input type="submit" value="">
+                        <input type="submit" value=" Send">
                     </div>
                 </form>
     
@@ -177,7 +184,7 @@
     </main>
     
     <!-- FOOTER -->
-    <footer class="pt-5">
+    <footer class="pt-5 bg-black-custom white">
         <section class="upper-footer">
             <div class="container text-center">
                 <div class="row">
@@ -199,7 +206,7 @@
                 </div>
             </div>
         </section>
-        <section class="bottom-footer text-center py-5">
+        <section class="bottom-footer text-center py-5 bg-m-black-custom">
             <h4>
                 Lorem ipsum dolor sit amet.
             </h4>

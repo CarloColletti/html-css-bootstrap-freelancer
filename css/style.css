@@ -3,12 +3,6 @@
     --bg-color-m-black: #2c3e50;
     --bg-color-green: #1abc9c;
 }
-
-#header {
-    min-height: 80px;
-    border: 2px dashed green;
-}
-
 .bg-green-custom{
     background-color: var(--bg-color-green);
 }
